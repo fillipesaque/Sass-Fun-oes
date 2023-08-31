@@ -1,0 +1,22 @@
+.title{
+   color:mix(blue , yellow)  /* Funçao nativa Mix () mistura duas cores  */
+}
+
+/* Criando uma funçao */
+
+@function TitleH1($background-color){
+    @if (lightness($background-color) > 50){
+        @return black;
+    }@else{
+        @return white
+    }
+};
+
+@mixin background-color-mixin($color){
+    background-color: $color;
+    color: TitleH1($color);
+}
+
+.title{
+    @include background-color-mixin(black)
+}

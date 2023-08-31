@@ -1,0 +1,1 @@
+conceito de funçoes dentro do sass

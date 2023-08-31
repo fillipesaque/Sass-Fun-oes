@@ -1,0 +1,12 @@
+@charset "UTF-8";
+.title {
+  color: gray;
+}
+
+/* Criando uma funçao */
+.title {
+  background-color: black;
+  color: white;
+}
+
+/*# sourceMappingURL=index.css.map */
